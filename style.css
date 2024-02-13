@@ -1,0 +1,114 @@
+/* Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* About */
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* Skills */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul li {
+    background: #16a085;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+ul li:hover {
+    background: #1abc9c;
+    transform: translateY(-5px);
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Resume */
+#resume a {
+    display: inline-block;
+    background: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#resume a:hover {
+    background: #3498db;
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
